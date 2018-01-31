@@ -942,24 +942,30 @@ module.exports = __webpack_require__(15);
 
 /***/ }),
 /* 15 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_StyledDiv__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_style_css__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__styles_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__styles_style_css__);
 
 
+var _react = __webpack_require__(2);
 
+var _react2 = _interopRequireDefault(_react);
 
+var _reactDom = __webpack_require__(19);
 
+var _reactDom2 = _interopRequireDefault(_reactDom);
 
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_StyledDiv__["a" /* default */], { style: __WEBPACK_IMPORTED_MODULE_3__styles_style_css___default.a }), document.getElementById('app'));
+var _StyledDiv = __webpack_require__(28);
+
+var _StyledDiv2 = _interopRequireDefault(_StyledDiv);
+
+var _style = __webpack_require__(29);
+
+var _style2 = _interopRequireDefault(_style);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_reactDom2.default.render(_react2.default.createElement(_StyledDiv2.default, { style: _style2.default }), document.getElementById('app'));
 
 /***/ }),
 /* 16 */
@@ -18271,16 +18277,26 @@ module.exports = camelize;
 
 /***/ }),
 /* 28 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 
 
-/* harmony default export */ __webpack_exports__["a"] = (({ style }) => {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { style: style });
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (_ref) {
+  var style = _ref.style;
+
+  return _react2.default.createElement('div', { style: style });
+};
 
 /***/ }),
 /* 29 */
