@@ -2,4 +2,5 @@ div {
   position: absolute;
   background-color: red;
   width: calc(100% - 10px);
+  min-height: 100px;
 }
